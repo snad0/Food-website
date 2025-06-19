@@ -208,31 +208,34 @@ footer{
     font-family: 'Varela Round', sans-serif;
 }
 #home h1{
-    color: rgb(223, 219, 219);
+    color: #fff;
     text-align: center;
-   
+    font-size: 3.2rem;
+    margin-bottom: 10px;
+    padding-bottom: 0;
 }
 #home p{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    color: #f1f1f1;
+    margin-top: 0;
 }
 .description{
-    color: rgb(51, 51, 51);
+    color: #f1f1f1;
     text-align: center;
     font-family: 'Varela Round', sans-serif;
-    
+    font-size: 1.3rem;
     margin: 0px 50px;
-  
 }
 .quote{
-    
-    color: rgb(255, 254, 254);
+    color: #fff;
     font-style: italic;
     padding: 0px 3px;
     margin: 0px 50px;
-    
+    font-size: 1.2rem;
 }
 .btn{
-    padding: 6px 6px;
+    padding: 16px 36px;
+    font-size: 1.3rem;
     border: 2px solid rgb(170 151 130);
     background-color: rgb(206 178 129);
     border-radius: 8px;
@@ -259,4 +262,23 @@ footer{
 }
 .center{
     text-align: center;
+}
+
+/* Contact social icons alignment */
+.contact-social {
+    margin-top: 20px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.contact-social img {
+    width: 56px;
+    height: 56px;
+    object-fit: contain;
+    display: block;
+    transition: transform 0.2s;
+}
+.contact-social img:hover {
+    transform: scale(1.12);
 }
