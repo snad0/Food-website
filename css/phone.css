@@ -53,10 +53,41 @@
 
 
 #home p{
-    font-size: 0.6rem;
+    font-size: 1rem;
+    color: #f1f1f1;
+    margin-top: 0;
 }
 #home h1{
-    font-size: 1.2rem;
+    font-size: 1.7rem;
+    color: #fff;
+    margin-bottom: 8px;
+    padding-bottom: 0;
+}
+.description {
+    color: #f1f1f1;
+    font-size: 1.1rem;
+}
+.quote {
+    color: #fff;
+    font-size: 1rem;
+}
+.btn {
+    padding: 12px 24px;
+    font-size: 1rem;
+}
+
+.contact-social {
+    margin-top: 20px;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
+.contact-social img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    display: block;
 }
 
 
